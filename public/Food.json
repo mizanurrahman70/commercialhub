@@ -1,0 +1,84 @@
+
+    [
+        {
+          "id": 1,
+          "type": "Warehouse",
+          "name": "Large Storage Co.",
+          "description": "Spacious warehouse for storing goods",
+          "location": "Industrial Zone, City A",
+          "area": "5000 sq ft",
+          "facilities": ["loading docks", "forklifts", "storage racks"],
+          "status": "available",
+          "image": "https://i.ibb.co/rGFVd3M/Warehouse.jpg",
+          "price":"950$",
+          "view_button": "View Warehouse"
+        },
+        {
+          "id": 2,
+          "type": "Industrial Facility",
+          "name": "Tech Manufacturing",
+          "description": "Modern facility for high-tech manufacturing",
+          "location": "Tech Park, City B",
+          "area": "10000 sq ft",
+          "facilities": ["production lines", "clean rooms", "testing labs"],
+          "status": "lease",
+          "image": "https://i.ibb.co/wdZ16KN/Industrial-Facility.jpg",
+          "price":"850$",
+          "view_button": "View Industrial Facility"
+        },
+        {
+          "id": 3,
+          "type": "Restaurant",
+          "name": "Gourmet Grill",
+          "description": "Upscale restaurant with a fine dining experience",
+          "location": "Downtown, City C",
+          "area": "7000 sq ft",
+          "facilities": ["dining area", "bar", "private rooms"],
+          "status": "open",
+          "image": "https://i.ibb.co/yRDRG7R/italiresturent.jpg",
+          "price":"800$",
+          "view_button": "View Restaurant"
+        },
+        {
+          "id": 4,
+          "type": "Entertainment Venue",
+          "name": "Starlight Theater",
+          "description": "Popular venue for live performances and events",
+          "location": "Entertainment District, City D",
+          "area": "3000 sq ft",
+          "facilities": ["stage", "seating area", "sound system"],
+          "status": "booked",
+          "image": "https://i.ibb.co/fQM7Lhs/Entertainment-Venue.jpg",
+          "price":"300$",
+          "view_button": "View Entertainment Venue"
+        },
+        {
+          "id": 5,
+          "type": "Office Building",
+          "name": "Downtown Tower",
+          "description": "Modern office building in the heart of the city",
+          "location": "Downtown, City X",
+          "area": "20000 sq ft",
+          "facilities": ["elevators", "conference rooms", "parking garage"],
+          "status": "available",
+          "image": "https://i.ibb.co/LnPs1rt/Office-Building.jpg",
+          "price":"600$",
+          "view_button": "View Office Building"
+        },
+        {
+          "id": 6,
+          "type": "Retail Space",
+          "name": "City Mall",
+          "description": "Shopping mall with diverse retail spaces",
+          "location": "City Center, City Y",
+          "area": "50000 sq ft",
+          "facilities": ["storefronts", "common areas", "food court"],
+          "status": "leased",
+          "image": "https://i.ibb.co/8PPLfvP/Retail-Space.jpg",
+          "price":"800$",
+          "view_button": "View Retail Space"
+        }
+      ]
+    
+    
+  
