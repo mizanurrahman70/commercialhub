@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useParams,useLoaderData, Link } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 
 const CardDtls = () => {
     let {id}=useParams()
@@ -23,6 +24,10 @@ const CardDtls = () => {
     }=singleData
    
     return (
+       <>
+       <div>
+        <Banner></Banner>
+       </div>
         <div data-aos="fade-down" className="md:w-[50%] gap-10 bg-slate-100/70 px-6 py-4 mx-auto rounded-2xl space-y-6 shadow-md mt-5 mb-5 md:flex border-green-400">
         {/* Card Image */}
         <Helmet>
@@ -63,7 +68,7 @@ const CardDtls = () => {
                 <button className="bg-slate-700 text-white px-6 py-2 rounded-lg font-semibold md:text-base sm:text-sm text-[12px] hover:bg-slate-900">Buy Now</button>
             </div>
             </div>
-        </div>
+        </div></>
     );
 };
 
