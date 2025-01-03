@@ -13,6 +13,6 @@
 
 - Animate.css,
 
-- Swiper slider
+- Swiper slider,
 
 
